@@ -1,0 +1,22 @@
+path: C:/Users/Akhil/OneDrive/Desktop/Project
+train: C:/Users/Akhil/OneDrive/Desktop/Project/train_images_abs.txt
+val: C:/Users/Akhil/OneDrive/Desktop/Project/val_images_abs.txt
+nc: 17
+names:
+  0: person
+  1: ear
+  2: ear-mufs
+  3: face
+  4: face-guard
+  5: face-mask-medical
+  6: foot
+  7: tools
+  8: glasses
+  9: gloves
+  10: helmet
+  11: hands
+  12: head
+  13: medical-suit
+  14: shoes
+  15: safety-suit
+  16: safety-vest

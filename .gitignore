@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Environment & Secrets (Never commit credentials)
+.env
+backend/.env
+frontend/.env.local
+
+# Large datasets & zips
+archive.zip
+*.zip
+*.tar.gz
+images/
+labels/
+labels.cache
+meta-data/
+*.cache
+*.txt
+!requirements*.txt
+
+# YOLO weights & models
+*.pt
+*.onnx
+runs/
+model/training_runs/
+# Keep ONLY our production best.pt model (19.1 MB fits within GitHub 100MB limit)
+!model/best.pt
+
+# Storage & Uploads
+storage/
+backend/storage/
+*.log
+
+# Node & Frontend build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.db
+*.sqlite
